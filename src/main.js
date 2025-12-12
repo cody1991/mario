@@ -15,6 +15,10 @@ const config = {
     height: GAME_CONFIG.CANVAS_HEIGHT,
     parent: 'game-container',
     backgroundColor: '#5c94fc',
+    scale: {
+        mode: Phaser.Scale.FIT,           // 保持比例适配窗口
+        autoCenter: Phaser.Scale.CENTER_BOTH,  // 居中显示
+    },
     physics: {
         default: 'arcade',
         arcade: {
