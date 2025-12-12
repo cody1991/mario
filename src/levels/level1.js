@@ -2,7 +2,7 @@
  * 第一关数据
  */
 
-import { TILE_TYPES } from '../utils/constants.js';
+import { TILE_TYPES } from '../config/constants.js';
 
 // 简写
 const _ = TILE_TYPES.AIR;
